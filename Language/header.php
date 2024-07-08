@@ -2,6 +2,7 @@
 <?php define('BASE_PATH', '/projet/Language/');?>
 <?php define('BOOTSTRAP_PATH', '/projet/Language/main/bootstrap/');?>
 <link rel="stylesheet" href="<?php echo BASE_PATH; ?>node_modules/bootstrap/dist/css/bootstrap.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js"></script>
 <body>
   <div class="container-fluide fs-3">
 <nav class="navbar navbar-expand-lg bg-warning">
