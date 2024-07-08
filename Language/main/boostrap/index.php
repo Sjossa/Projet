@@ -7,16 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-
+<header>
 <?php
-require("../../header.php")?>
-<div class="container-fluid">
-  <div class="row bg-primary">
-    <div class="col-12 text-center">
-      <h1>Boostrap</h1>
-    </div>
-  </div>
-</div>
+include_once "../../header.php";
+?>
+</header>
+
+<main class="">
+    fffffff
+</main>
+
 
 
 </body>
