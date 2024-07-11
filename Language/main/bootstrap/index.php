@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap</title>
+    <style>
+        iframe{height: auto;}
+    </style>
+
 </head>
 <body>
     <header>
@@ -14,7 +18,7 @@
     <main class="container-fluid fs-5">
         <h1 class="text-center">Les different modification de texte</h1>
         <div class="row">
-            <div class="col-5 border border-black ms-2">
+            <div class="col-xl-6">
                 <h3 class="text-muted">Les couleur</h3>
                 <p>En utilisant Bootstrap, il est possible de modifier la couleur du texte et du fond en utilisant les préfixes 'text' et 'bg', puis la couleur voulue.Avant toute chose, il est essentiel de comprendre les couleurs que Bootstrap a mises en place.</p>
                 <p>Voici les différents couleur que bootstrap propose:</p>
@@ -34,41 +38,13 @@
                 <p>Par exemple, en utilisant la classe 'text-primary', <span class="text-primary">le texte est en bleu</span>.</p>
                 <p>Pour modifier le fond, on utilise le préfixe 'bg' au lieu de 'text', ce qui donne 'bg-primary' : <span class="bg-primary text-white">le fond sera en bleu</span>.</p>
             </div>
-            <div class="col col-3">
-                <div id="editor" class="w-100 h-100">entre votre code ici...</div>
-            </div>
-            <div class="col-3">
-                <button onclick="runCode()">Exécuter le Code</button>
-                <h4>Zone de texte</h4>
-                <div id="output" class="w-100 h-100">Le résultat s'affichera ici...</div>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <h3 class="text-secondary">les Tailles</h3>
-    <div class="col col-6   border border-black">
-    <p>Après avoir vu comment changer les couleurs du texte et du fond, nous allons maintenant voir comment modifier la taille  de votre texte.
-    en premier lieu ils nous faut connaître leur préfixe qui  sont '<em class="fw-bold">fs</em> pour la taille du texte et 'display' pour la taille des titre  et '<em class="fw-bold">fw</em>' pour le poids.</p>
-    <div class="col bd-example">
-        <p>les suffixe qui accompagne les different préfixe de taille sont les nombre de '1' à '5':</p>
-        <div class="row">
-        <div class="col col-4">
-        <ul>
-            <li >ceci est un texte avec un mot de taille :<span class="fs-1"> fs-1</span></li>
-            <li>ceci est un texte avec un mot de taille : <span class="fs-2"> fs-2</span></li>
-            <li>ceci est un texte avec un mot de taille : <span class="fs-3">fs-3</span> </li>
-            <li>ceci est un texte avec un mot de taille : <span class="fs-4">fs-4</span> </li>
-            <li>ceci est un texte avec un mot de taille : <span class="fs-5">fs-5</span> </li>
-            <li> titre de taille <span class="display-1">display-1</span></li>
-            <li> titre de taille <span class="display-2">display-2</span></li>
-            <li> titre de taille <span class="display-3">display-3</span></li>
-            <li> titre de taille <span class="display-4">display-4</span></li>
-            <li> titre de taille <span class="display-5">display-5</span></li>
-        </ul>
+            <div class="col col-12 col-xl-6"><iframe  style="width: 100%;" scrolling="no" title="Untitled" src="https://codepen.io/Sjossa/embed/mdZygja?default-tab=html&editable=true&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/Sjossa/pen/mdZygja">
+  Untitled</a> by Johnny (<a href="https://codepen.io/Sjossa">@Sjossa</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe></div>
         
-        </div>
-    </div>
-    </div>
+        
             
 
         </div>
