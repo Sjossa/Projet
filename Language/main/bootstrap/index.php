@@ -22,7 +22,7 @@
                 <h3 class="text-muted">Les couleur</h3>
                 <p>En utilisant Bootstrap, il est possible de modifier la couleur du texte et du fond en utilisant les préfixes 'text' et 'bg', puis la couleur voulue.Avant toute chose, il est essentiel de comprendre les couleurs que Bootstrap a mises en place.</p>
                 <p>Voici les différents couleur que bootstrap propose:</p>
-                <ul class=" border border-danger">
+                <ul class=" border">
                     <li>Pour la couleur bleue, on utilise le suffixe <em class="text-primary">primary</em></li>
                     <li>Pour la couleur grise claire, on utilise le suffixe <em class="text-secondary">secondary</em></li>
                     <li>Pour la couleur verte, on utilise le suffixe <em class="text-success">success</em></li>
@@ -38,16 +38,21 @@
                 <p>Par exemple, en utilisant la classe 'text-primary', <span class="text-primary">le texte est en bleu</span>.</p>
                 <p>Pour modifier le fond, on utilise le préfixe 'bg' au lieu de 'text', ce qui donne 'bg-primary' : <span class="bg-primary text-white">le fond sera en bleu</span>.</p>
             </div>
-            <div class="col col-12 col-xl-6"><iframe  style="width: 100%;" scrolling="no" title="Untitled" src="https://codepen.io/Sjossa/embed/mdZygja?default-tab=html&editable=true&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+            <div class="col col-12 col-xl-6"><iframe style="width: 100%; height: 100%;" scrolling="no" title="Untitled" src="https://codepen.io/Sjossa/embed/mdZygja?default-tab=html&editable=true&theme-id=dark" frameborder="no" loading="lazy" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/Sjossa/pen/mdZygja">
   Untitled</a> by Johnny (<a href="https://codepen.io/Sjossa">@Sjossa</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe></div>
+
+<div class="row">
+    <div class="col col-xl-6">
         
+    </div>
+</div>
         
             
 
-        </div>
+        
     </main>
 
 
